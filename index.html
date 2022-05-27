@@ -21,6 +21,15 @@
   <div class="container mt-5">
     <h1>Kontakt-Aufnahme-Formular!</h1>
     <form action="https://formsubmit.co/4df0cf4fa5ba29c8189805ad40a8ff5c" method="POST" class="row g-3">
+
+      <!-- Honeypot einbetten -->
+
+      <input type="text" name="_honey" style="display: none;">
+
+      <!-- reCAPTCHA-_captcha deaktivieren -->
+
+      <input type="hidden" name="_captcha" value="false">
+
       <div class="col-md-6">
         <label for="firstName" class="form-label">
           Ihr Vorname
@@ -35,7 +44,8 @@
       </div>
       <div class="col-md-6">
         <label for="emailInfo" class="form-label">Ihre E-Mail</label>
-        <input type="email" class="form-control" name="E-Mail-Adresse" id="emailInfo" placeholder="Max-Mustermann@gmail.com" required>
+        <input type="email" class="form-control" name="E-Mail-Adresse" id="emailInfo"
+          placeholder="Max-Mustermann@gmail.com" required>
       </div>
       <div class="col-md-6">
         <label for="phoneNumber" class="form-label">Ihre Telefonnummer</label>
