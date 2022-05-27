@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Kontakt-Formular</title>
+
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1>Kontakt-Aufnahme-Formular!</h1>
+    <form action="https://formsubmit.co/heimatvereinheessen@outlook.de" method="POST" class="row g-3">
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">
+          Ihr Vorname
+        </label>
+        <input type="text" class="form-control" id="firstName" placeholder="Max" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">
+          Ihr Nachname
+        </label>
+        <input type="text" class="form-control" id="lastName" placeholder="Mustermann" required>
+      </div>
+      <div class="col-md-6">
+        <label for="emailInfo" class="form-label">Ihre E-Mail</label>
+        <input type="email" class="form-control" id="emailInfo" placeholder="Max-Mustermann@gmail.com" required>
+      </div>
+      <div class="col-md-6">
+        <label for="phoneNumber" class="form-label">Ihre Telefonnummer</label>
+        <input type="text" class="form-control" id="phoneNumber" placeholder="+49 (2381) 321-123">
+      </div>
+      <div class="col-md-12">
+        <label for="comments" class="form-label">Ihre Nachricht</label>
+        <textarea class="form-control" name="" id="comments" rows="3"
+          placeholder="Sie haben Fragen? Oder es handelt sich um eine Buchung, Registrierung? Oder Sie haben hilfreiche Anregungen, Motivationen oder Kommentare etc.? Dann schreiben Sie uns hier eine Nachricht..."></textarea>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary btn-lg">
+          Absenden
+        </button>
+      </div>
+    </form>
+  </div>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
